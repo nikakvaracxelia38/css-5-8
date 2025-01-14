@@ -1,0 +1,669 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bodyclassdiv {
+    display: flex;
+    gap: 64px;
+}
+
+
+
+body {
+    background-color: #141414;
+    color: #FFF;
+}
+
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #222224;
+    border-right: 1px solid #434343;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+
+.hedcontainerone {
+    display: flex;
+}
+
+
+.headercontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.headerdiv {
+    display: flex;
+    padding: 16px 16px 0px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+
+
+.headerhome {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+.headerClass {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-bottom: 1px solid #434343;
+    padding-bottom: 24px;
+}
+
+
+
+.homeClass {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 84px 8px 16px;
+    border-radius: 12px;
+    background-color: #FAE101;
+    cursor: pointer;
+}
+
+
+
+.CompanyClass {
+    color: #989898;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+
+
+.GeneralClass {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+.UsermemberClass {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 84px 8px 16px;
+    cursor: pointer;
+}
+
+
+
+.UsermemberClass p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+.memberClass {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 55px 8px 16px;
+    cursor: pointer;
+}
+
+
+
+.memberClass p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+/*  */
+
+
+
+
+.headerfirstclass {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #434343;
+}
+
+
+
+.acauntsstyleClass {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+.AccountClass {
+    color: #989898;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+
+
+.imgandtextClass {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 84px 8px 16px;
+    cursor: pointer;
+}
+
+
+
+.imgandtextClass p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+.GroupClass {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 55px 8px 16px;
+    cursor: pointer;
+}
+
+
+
+
+.GroupClass p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+
+/*  */
+
+
+
+.navcontainer {
+    display: flex;
+    padding: 16px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 208px;
+}
+
+
+
+.inpuClassstyle {
+    display: flex;
+}
+
+
+
+
+.inpuClassstyle input {
+    border-radius: 8px 0px 0px 8px;
+    border-top: 1px solid #FAE101;
+    border-bottom: 1px solid #FAE101;
+    border-left: 1px solid #FAE101;
+    background: none;
+    padding: 8px 379px 8px 10px;
+    color: #FFF;
+}
+
+
+
+.Groupstylediv {
+    padding: 8px 12px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #FAE101;
+}
+
+
+
+.inpuClassstyle input:placeholder-shown {
+    color: #FAE101;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+.navandheaderClass {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+
+
+/* main */
+
+
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+.maindivone {
+    display: flex;
+    gap: 259px;
+    justify-content: center;
+    padding: 19px 19px;
+    border-radius: 16px;
+    background-color: #222224;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.mianClass {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+
+.giftingClass {
+    color: #FAE101;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+
+
+
+.BuyClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 800;
+    max-width: 250px;
+    width: 100%;
+}
+
+
+
+.PellentesqueClass {
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    max-width: 277px;
+    width: 100%;
+}
+
+
+
+
+.pretiumspanClass {
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+
+
+/*  */
+
+
+
+
+.allClassone {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.imagesgrencClass {
+    display: flex;
+    padding: 8px 16px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 24px;
+    background-color: #FAE101;
+    cursor: pointer;
+}
+
+
+
+.containerClass {
+    display: flex;
+    padding: 8px 16px 8px 12px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 24px;
+    background-color: #222224;
+    cursor: pointer;
+}
+
+
+
+
+
+/*  */
+
+
+
+
+
+.mainoneClass {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+
+
+.maintextandclockClass {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+
+
+.clockClass {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.FlashClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+
+.saleClass {
+    color: #FAE101;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+
+.EndingClass {
+    color: #797979;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+
+.Clocktext span {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #FAE101;
+}
+
+
+
+.paddingClass {
+    display: flex;
+    height: 260px;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+
+
+.paddstyle {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+    background-color: #222224;
+}
+
+
+
+
+.textstyleClass {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+
+.starClass {
+    display: flex;
+    gap: 2px;
+}
+
+
+.stoleClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    max-width: 100px;
+    width: 100%;
+}
+
+
+
+.GrinchClass {
+    color: #797979;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    max-width: 120px;
+    width: 100%;
+}
+
+
+
+.dolaroneClass {
+    color: #FAE101;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
+
+
+.dolartwoClass {
+    color: #797979;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
+
+.buttonstyleClass {
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 40px;
+    display: flex;
+    height: 30px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 4px;
+    background-color: #FAE101;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.buttonstyleClass:hover {
+    color: #FFF;
+}
+
+
+
+/*  */
+
+
+
+
+.secondmaincontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+.ThemesClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+
+.onedivcontainer {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+
+
+.imagesandtextpaddstyle {
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+}
+
+
+.imagesandtext {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid #FAE101;
+}
+
+
+
+.onetextstyle {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+
+
+.secondtexstyle {
+    color: #797979;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    max-width: 200px;
+    width: 100%;
+}
